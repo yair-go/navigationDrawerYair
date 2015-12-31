@@ -29,5 +29,12 @@
         android:layout_alignEnd="@+id/txtLabel"
         android:layout_marginBottom="89dp" />
 
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_above="@+id/inHomeButton"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>
