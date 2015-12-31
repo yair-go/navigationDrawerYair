@@ -19,5 +19,15 @@
         android:layout_marginTop="10dp"
         android:src="@mipmap/ic_home" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/inHomeButton"
+        android:layout_above="@+id/txtLabel"
+        android:layout_alignRight="@+id/txtLabel"
+        android:layout_alignEnd="@+id/txtLabel"
+        android:layout_marginBottom="89dp" />
+
 
 </RelativeLayout>
